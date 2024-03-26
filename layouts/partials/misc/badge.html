@@ -4,6 +4,7 @@
     <div class="certificate-badge">
       <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
        <img src="{{ .badge }}" alt="{{ .name }}" />
+       <span>{{.name}}</span>
       </a>
     </div>
 {{ else if eq .type "soft-skill-indicator" }}
